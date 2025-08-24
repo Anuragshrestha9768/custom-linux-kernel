@@ -26,5 +26,5 @@ The syscall (`my_syscall`) accepts an integer argument from a user program and r
 #### 5. User-Space Test Program 
 - `test_syscall.c`
 #### 6. Compile and run 
-gcc test_syscall.c -o test_syscall
-./test_syscall
+- `gcc test_syscall.c -o test_syscall`
+- `./test_syscall`
