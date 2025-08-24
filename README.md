@@ -19,10 +19,10 @@ The syscall (`my_syscall`) accepts an integer argument from a user program and r
 #### 3. Update the Makefile 
 - `kernel/Makefile`
 #### 4. Rebuild and Boot the Kernel
-make -j$(nproc)
-sudo make modules_install
-sudo make install
-Then reboot
+- `make -j$(nproc)`
+- `sudo make modules_install`
+- `sudo make install`
+- Then reboot
 #### 5. User-Space Test Program 
 - `test_syscall.c`
 #### 6. Compile and run 
