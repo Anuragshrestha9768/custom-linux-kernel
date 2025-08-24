@@ -23,7 +23,8 @@ make -j$(nproc)
 sudo make modules_install
 sudo make install
 Then reboot
-#### 5. User-Space Test Program - `test_syscall.c`
+#### 5. User-Space Test Program 
+- `test_syscall.c`
 #### 6. Compile and run 
 gcc test_syscall.c -o test_syscall
 ./test_syscall
